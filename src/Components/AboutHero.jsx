@@ -29,9 +29,9 @@ const AboutHero = () => {
           }}
         />
           <div>
-            <h2 className="text-3xl text-center pb-5 border-b-2 border-b-primary">Welcome To Ceqa Foods & Beverages</h2>
+            <h2 className="text-3xl text-center pb-5 border-b-2 border-b-primary">Welcome To Pizzaman Chickenman.</h2>
             <p className="text-center py-5 text-[16px] leading-7 font-light">
-              <b>Ceqa Foods & Beverages</b> is a fully owned Ghanaian company
+              <b>Pizzaman Chickenman</b> is a fully owned Ghanaian company
               which aims at serving the people of Ghana and Africa with the best
               of meals. As the founder and Chief Executive Officer of this
               company, it is our vision to be the first and leading fast food

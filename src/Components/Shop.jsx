@@ -122,7 +122,7 @@ const Shop = () => {
         <div className="mt-8 ">
           <Link
             to="/our-branches"
-            className="text-center text-black lg:px-10 md:px-3 py-3 bg-white rounded-sm transition-all duration-400 hover:bg-black hover:text-white"
+            className="text-center text-black lg:px-10 md:px-3 py-3 px-4 bg-white rounded-sm transition-all duration-400 hover:bg-black hover:text-white"
           >
             Shops Near Me
           </Link>

@@ -9,12 +9,14 @@ export const sliderData = [
     heading: "Help End the Scam",
     desc: "Only Call Us on",
     button: " 0553871228",
+    order:'Order Now'
   },
   {
     image: backgroundImg4,
     heading: "Uphold Our Policy",
     desc: "No Food, No Payment",
     button: "0553871228",
+    order:'Order Now'
   },
 
   {
@@ -22,5 +24,6 @@ export const sliderData = [
     heading: "It’s a Scam! if...",
     desc: "They insist on payment before delivery",
     button: "0553871228",
+    order:'Order Now'
   },
 ];

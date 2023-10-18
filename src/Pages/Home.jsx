@@ -1,7 +1,6 @@
 import React from "react";
 import Hero from "../Components/Hero";
 import Story from "../Components/Story";
-import BestSellers from "../Components/BestSellers";
 import Menu from "../Components/Menu";
 import Counting from "../Components/Counting";
 import Gallery from "../Components/Gallery";
@@ -16,7 +15,6 @@ const Home = () => {
     <Counting/>
     <Story/>
     <Shop/>
-    <BestSellers/>
     <Gallery/>
     <Menu/>
     <Footer1/>
