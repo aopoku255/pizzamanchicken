@@ -7,7 +7,7 @@ import pizza5 from '../assets/pizza/pizza5.jpg'
 
 import friedRice from '../assets/andas/friedrice-5.jpg'
 import friedRice2 from '../assets/andas/friedrice-5.jpg'
-import friedRice3 from '../assets/andas/friedrice-1.jpg'
+// import friedRice3 from '../assets/andas/friedrice-1.jpg'
 
 
 import noodle1 from '../assets/andas/indomie.jpg'
