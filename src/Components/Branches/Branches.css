@@ -1,0 +1,5 @@
+.services-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../../assets/services_img.jpg');
+    border: 1px solid;
+    height: 80px;
+}

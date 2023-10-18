@@ -1,0 +1,83 @@
+/* In your CSS file (e.g., Story.css) */
+.video-container {
+    position: relative;
+    width: 560px; /* Adjust width and height as needed */
+    height: 315px;
+  }
+  
+  .video-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Hide overflow to clip the video overlay */
+  }
+  
+  .video-overlay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6); /* Overlay background color */
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease; /* Add pop and fade effect */
+    opacity: 0.7; /* Initial opacity */
+  }
+  
+  .play-button:hover {
+    transform: translate(-50%, -50%) scale(1.1); /* Scale up on hover */
+    opacity: 1; /* Full opacity on hover */
+  }
+
+.modal{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+
+
+.swiper-button-prev:after, .swiper-button-next:after{
+  color:white;
+}
+
+@media screen and (max-width:768px) {
+  .video-container{
+    width: 100%;
+    height: 280px;
+  }
+  .play-button {
+    position: absolute;
+    
+    
+  
+    /* transform: translate(-50%, -50%); */
+    background: rgba(0, 0, 0, 0.6); /* Overlay background color */
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease; /* Add pop and fade effect */
+    opacity: 0.7; /* Initial opacity */
+  }
+  
+}
+
+
+
+
+/* <div class="swiper-slide swiper-slide-active" role="group" aria-label="3 / 5" data-swiper-slide-index="2" style="width: 84.25px; margin-right: 10px;"><div class="group cursor-pointer transform transition-transform hover:scale-95 3"><a href="/"><img src="/src/assets/near3.jpg"></a><div class="bg-black opacity-30 absolute inset-0"></div><div class="absolute w-full text-white text-center opacity-0 bottom-0 md:group-hover:bottom-20 group-hover:bottom-40 group-hover:opacity-100 transition-all duration-300"><h4 class="text-2xl font-bold">Fried Rice</h4><span class="text-md">Tasty Fried Rice</span></div></div></div> */
