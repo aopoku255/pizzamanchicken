@@ -2,10 +2,23 @@ import Footer from "../../Components/Footer1";
 import '../../../src/index.css'
 import Navbar2 from "../../Components/Navbar2";
 import { truckDark } from "../../assets";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
     return(
         <>
+         <Helmet>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.png" />
+    <meta name="description" content="Contact Us"/>
+    <meta name="keywords" content="Contact Pizzaman, Contact Cheickenman, Contact Pizzamanchickenman, Contact Chickenmanpizzaman, Contact Pizza man, Contact chicken man"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Pizzamanchickenman" />
+    <meta property="og:description" content="ONLY CALL US ON 0302753430 " />
+    <meta property="og:image" content="/public/logo.png" />
+    <meta property="og:url" content="https://www.pizzamanchickenman.com/contact-us" />
+    <title>Pizzaman Chickenman | About Us</title>
+    </Helmet>
            <Navbar2 />
         <div
           className="w-full h-96 flex justify-center items-center"

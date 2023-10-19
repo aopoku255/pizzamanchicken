@@ -6,6 +6,7 @@ import Trucks from "../Trucks/Trucks";
 import { useState } from "react";
 import Footer from "../Footer1";
 import { branche_hover } from "../../assets";
+import { Helmet } from "react-helmet";
 
 const Branches = () =>
 {
@@ -31,7 +32,18 @@ const Branches = () =>
 
     return (
         <>
-
+         <Helmet>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.png" />
+    <meta name="description" content="Pizzaman Chickenman Branches"/>
+    <meta name="keywords" content="Branches Pizzaman, Branches Cheickenman, Branches Pizzamanchickenman, Branches Chickenmanpizzaman, Branches Pizza man, Branches chicken man"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Pizzamanchickenman branches" />
+    <meta property="og:description" content="Largest fast food Chain in Ghana 49+ branches. " />
+    <meta property="og:image" content="/public/logo.png" />
+    <meta property="og:url" content="https://www.pizzamanchickenman.com/about-us" />
+    <title>Pizzaman Chickenman | About Us</title>
+    </Helmet>
         <NavBar />
         <div
           className="w-full h-96 flex justify-center items-center"
