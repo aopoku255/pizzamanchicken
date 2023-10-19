@@ -43,7 +43,7 @@ const Footer1 = () => {
             </div>
             <div>
               <div />
-              <Link to="menu" className="hover:text-primary">
+              <Link to="/menu" className="hover:text-primary">
                 Menu
               </Link>
             </div>

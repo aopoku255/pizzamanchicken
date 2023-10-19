@@ -8,6 +8,7 @@ import Footer1 from '../Components/Footer1'
 function About() {
   return (
     <>
+    <div></div>
       <Navbar2 />
       <AboutHero />
       <Journey />
