@@ -1,23 +1,8 @@
-import {
-Richard,
-Christian_Boakye,
-Essuman,
-Lamptey,
-Richard_Asiedu,
-Prince_Owusu,
-Stephen_Ofori,
-Kekeli,
-Philemon,
-Dari,
-Willis,
-Nii_Antiye,
-Frank_Oteng,
-Frank_Duah,
-} from "../assets";
+import { Richard } from '../assets'
 
 export const members = [
     {
-        image: Richard,
+        image:Richard,
         name: 'Richard Nii Amarh Quaye',
         tile: 'Board Chairman',
         email: '',
@@ -51,7 +36,7 @@ export const members = [
         ]
     },
     {
-        image: Christian_Boakye,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821888/pizzaman%20website/team/Christian-Boakye_ke0avf.jpg',
         name: 'Christian Boakye Yiadome',
         tile: 'Ceo & Founder',
         email: 'chrisb@ceqaltd.com',
@@ -75,7 +60,7 @@ export const members = [
         Recognition: [],
     },
     {
-        image: Essuman,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821888/pizzaman%20website/team/esuman_iaxl8r.jpg',
         name: 'Essuman-Amankwah Ebenezer',
         tile: 'Co-Founder & Chief Operations Manager',
         email: 'eben.ta@ceqaltd.com',
@@ -101,7 +86,7 @@ export const members = [
         Recognition: '',
     },
     {
-        image: Lamptey,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821890/pizzaman%20website/team/mr-lamptey_esc7ag.jpg',
         name: 'Emmanuel Nii Lante Lamptey',
         tile: 'Board Member/Secretary',
         email: '',
@@ -121,7 +106,7 @@ export const members = [
     },
 
     {
-        image: Richard_Asiedu,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821891/pizzaman%20website/team/richard-asiedu_iw3i6b.jpg',
         name: 'Richard Asiedu',
         tile: 'DEPUTY CHIEF OPERATING OFFICER',
         email: 'Richard@ceqaltd.com',
@@ -139,7 +124,7 @@ export const members = [
     },
 
     {
-        image: Prince_Owusu,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821891/pizzaman%20website/team/prince-owusu_heame0.png',
         name: 'Prince Owusu',
         tile: 'Head, Chef',
         email: 'prince@ceqaltd.com',
@@ -155,7 +140,7 @@ export const members = [
     },
 
     {
-        image: Stephen_Ofori,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821891/pizzaman%20website/team/Stephen_wsgjss.jpg',
         name: 'Stephen Ofori Ntim',
         tile: 'Head, Information Technology',
         email: 'stephen.ntim@ceqaltd.com',
@@ -172,7 +157,7 @@ export const members = [
     },
 
     {
-        image: Kekeli,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821889/pizzaman%20website/team/kekeli_knja8h.jpg',
         name: 'Kekeli Awume',
         tile: 'Head, Human Resource',
         email: 'akekeli@ceqaltd.com',
@@ -190,7 +175,7 @@ export const members = [
     },
 
     {
-        image: Philemon,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821891/pizzaman%20website/team/Philemon_w7jps1.png',
         name: 'Philemon Aidoo',
         tile: 'Head, Data Department',
         email: ' philemon.aidoo@ceqaltd.com',
@@ -212,7 +197,7 @@ export const members = [
     },
 
     {
-        image: Dari,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821890/pizzaman%20website/team/Dari_gbmlxv.png',
         name: 'Dari Martin Dielmwin',
         tile: 'Head, Procurement manager',
         email: 'dari@ceqaltd.com',
@@ -232,7 +217,7 @@ export const members = [
     },
 
     {
-        image: Willis,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821892/pizzaman%20website/team/willis_d5fbbi.png',
         name: 'Willis Livingstone Gawu',
         tile: 'Head, Accounts',
         email: '',
@@ -252,7 +237,7 @@ export const members = [
     },
 
     {
-        image: Nii_Antiye,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821891/pizzaman%20website/team/nii-antiye_mnso9o.jpg',
         name: 'Nii Antiye Amoo Quaye',
         tile: 'Head, Marketing & Branding',
         email: 'nii.mantse@ceqalimited.com',
@@ -274,7 +259,7 @@ export const members = [
     },
 
     {
-        image: Frank_Oteng,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821889/pizzaman%20website/team/frank-oteng_hz4rvd.jpg',
         name: 'Frank Abrokwah Oteng',
         tile: 'General Floor Manager',
         email: 'frank.abrokwah@ceqalimited.com',
@@ -296,7 +281,7 @@ export const members = [
     },
 
     {
-        image: Frank_Duah,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821888/pizzaman%20website/team/frank-duah_ezg4rc.jpg',
         name: 'Frank Duah Poku',
         tile: 'Customer Relations Manager',
         email: 'frank.abrokwah@ceqalimited.com',

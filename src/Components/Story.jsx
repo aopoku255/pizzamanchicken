@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './Story.css'
 import '../../src/index.css'
-import youtube from '../assets/andas/CHIBELLA.jpg'
 import { AiOutlineClose } from 'react-icons/ai'
 import { Modal } from 'reactstrap'
 
@@ -47,7 +46,7 @@ const Story = () => {
               </svg>
             </div>
           )}
-          <img src={youtube} alt="Background Image" loading="lazy" />
+          <img src='https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821822/pizzaman%20website/andas/CHIBELLA_x8byy2.jpg' alt="Background Image" loading="lazy" />
         </div>
 
         <Modal isOpen={modal} toggle={toggle} className="modal">

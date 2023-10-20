@@ -1,5 +1,3 @@
-import Accra from "../Accra/Accra";
-import NavBar from "../Navbar2";
 import Footer from "../Footer1";
 import Envelope from '../../assets/envelope.png'
 import Time from '../../assets/time.png'

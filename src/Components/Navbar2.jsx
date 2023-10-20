@@ -50,17 +50,6 @@ function Navbar2() {
               onMouseOver={() => setVisible(navLink?.title)}
               onMouseLeave={() => setVisible("")}
             >
-              {navLink?.id === "our-menu" ? (
-                <Link
-                  to="menu"
-                  className={`${
-                    active === navLink?.title ? "text-primary" : "text-[#fff]"
-                  } ${navbar && "text-[black]"}
-            hover:text-primary uppercase text-base font-semibold h-[5rem] flex justify-center items-center`}
-                >
-                  {navLink?.title}
-                </Link>
-              ) : (
                 <Link
                   to={`/${navLink?.id}`}
                   className={`${
@@ -70,8 +59,6 @@ function Navbar2() {
                 >
                   {navLink?.title}
                 </Link>
-              )}
-
               <ul
                 className={`${
                   visible === navLink?.title ? "block" : "hidden"

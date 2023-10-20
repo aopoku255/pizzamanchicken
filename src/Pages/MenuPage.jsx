@@ -1,28 +1,19 @@
 import React from "react";
 
-import menu_1 from "../assets/menu/menu-1.png";
-import menu_2 from "../assets/menu/menu-2.png";
-import menu_3 from "../assets/menu/menu-3.png";
-import menu_4 from "../assets/menu/menu-4.png";
-import menu_5 from "../assets/menu/menu-5.png";
 import menu_6 from "../assets/menu/menu-6.png";
-import menu_7 from "../assets/menu/menu-7.png";
-import menu_8 from "../assets/menu/menu-8.png";
-import menu_9 from "../assets/menu/menu-9.png";
-import menu_10 from "../assets/menu/menu-10.png";
 import Navbar2 from "../Components/Navbar2";
 
 const menu = [
-  menu_1,
-  menu_2,
-  menu_3,
-  menu_4,
-  menu_5,
+  'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821858/pizzaman%20website/menu/menu-1_mcg5rr.png',
+  'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821858/pizzaman%20website/menu/menu-2_uv35tw.png',
+  'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821859/pizzaman%20website/menu/menu-3_gahzo1.png',
+  'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821859/pizzaman%20website/menu/menu-4_vauvvq.png',
+  'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821859/pizzaman%20website/menu/menu-5_wcdog5.png',
   menu_6,
-  menu_7,
-  menu_8,
-  menu_9,
-  menu_10,
+  'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821860/pizzaman%20website/menu/menu-7_imkifr.png',
+  'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821860/pizzaman%20website/menu/menu-8_lq1qzm.png',
+  'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821860/pizzaman%20website/menu/menu-9_iszj3q.png',
+  'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821858/pizzaman%20website/menu/menu-10_oc9jwr.png',
 ];
 
 function MenuPage() {
@@ -32,7 +23,7 @@ function MenuPage() {
       <div className="px-40 py-10">
         {menu.map((list, index) => (
           <div key={index} className="py-10">
-            <img src={list}></img>
+            <img src={list} loading="lazy"></img>
           </div>
         ))}
       </div>

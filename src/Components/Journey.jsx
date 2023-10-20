@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { journey } from '../Data/Journey'
-import DOMPurify from 'dompurify'
 import { wing1 } from '../assets'
 import { Modal } from 'reactstrap'
 import './Story.css'
