@@ -1,13 +1,9 @@
 
 import { useState, useEffect } from "react";
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import { sliderData } from "../Data/Hero";
-import { Link } from "react-router-dom";
 import "./styles.css";
 import Navbar2 from "./Navbar2";
-import {AiOutlineShoppingCart} from 'react-icons/ai'
 import { RiWhatsappFill } from "react-icons/ri";
-import order from '../assets/ord.png'
 import now from '../assets/now.jpg'
 
 
@@ -25,10 +21,7 @@ const Hero = () => {
     console.log("next");
   };
 
-  const prevSlide = () => {
-    setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
-    console.log("prev");
-  };
+
 
   function auto() {
     slideInterval = setInterval(nextSlide, intervalTime);

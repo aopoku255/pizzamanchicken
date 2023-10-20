@@ -1,32 +1,16 @@
 
 
 
-import pizza1 from '../assets/andas/pizza.jpg'
-import pizza3 from '../assets/andas/small pizza-2.jpg'
-import pizza4 from '../assets/andas/small pizza-3.jpg'
-import pizza5 from '../assets/pizza/pizza5.jpg'
-
 import friedRice from '../assets/andas/friedrice-5.jpg'
 import friedRice2 from '../assets/andas/friedrice-5.jpg'
-// import friedRice3 from '../assets/andas/friedrice-1.jpg'
 
-
-import noodle1 from '../assets/andas/indomie.jpg'
-import yam2 from '../assets/pizza/yam2.jpg'
-import yam3 from '../assets/pizza/yam3.jpg'
-
-import wings1 from '../assets/andas/wings2.jpg'
-import wings2 from '../assets/andas/wings-bucket.jpg'
-import wings3 from '../assets/andas/wings(s).jpg'
 
 import jollof1 from '../assets/andas/jollof-friedrice.jpg'
-import jollof2 from '../assets/andas/jollof-1.jpg'
-import jollof3 from '../assets/andas/jollof-4.jpg'
 
 const MenuData = [
     {
         id: 1,
-        image: pizza1,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821824/pizzaman%20website/andas/pizza_lgbfqa.jpg',
         title: 'Asti(Mushroom Pizza)',
         category: 'pizza',
         price: '20.00',
@@ -36,7 +20,7 @@ const MenuData = [
 
     {
         id: 2,
-        image: pizza3,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821824/pizzaman%20website/andas/small_pizza-2_yvjdam.jpg',
         title: 'Tuna Pizza',
         category: 'pizza',
         price: '20.00',
@@ -45,7 +29,7 @@ const MenuData = [
     },
     {
         id: 3,
-        image: pizza4,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821824/pizzaman%20website/andas/small_pizza-3_q5cm5h.jpg',
         title: 'Chicham Pizza',
         category: 'pizza',
         price: '20.00',
@@ -54,7 +38,7 @@ const MenuData = [
     },
     {
         id: 4,
-        image: pizza5,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821860/pizzaman%20website/pizza/pizza5_v8ozcp.jpg',
         title: 'Crisibreezi',
         category: 'pizza',
         price: '20.00',
@@ -82,34 +66,18 @@ const MenuData = [
     },
     {
         "id": 17,
-        "image": noodle1,
+        "image": 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821823/pizzaman%20website/andas/indomie_zsaaox.jpg',
         "title": "Spicy Szechuan Noodles",
         "category": "noodles",
         "price": "18.50",
         "desc": "Indulge in the Fiery Heat of Spicy Szechuan Noodles, a Perfect Blend of Spice and Savory Goodness."
     },
 
-    {
-        id: 23,
-        image: yam2,
-        title: 'Yam Chips(3Wings)',
-        category: 'yam',
-        price: '20.00',
-        desc: 'Three Flavorful Chicken Wings for a Delicious Treat.',
+    
 
-    },
-    {
-        id: 24,
-        image: yam3,
-        title: 'Yam Chips Only',
-        category: 'yam',
-        price: '20.00',
-        desc: 'Crispy and Delicious Yam Chips, a Perfect Snack or Side Dish for Any Occasion.',
-
-    },
     {
         id: 25,
-        image: wings1,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821825/pizzaman%20website/andas/wings2_akiqt0.jpg',
         title: 'Wings 8pcs',
         category: 'wings',
         price: '20.00',
@@ -118,7 +86,7 @@ const MenuData = [
     },
     {
         id: 26,
-        image: wings2,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821825/pizzaman%20website/andas/wings-bucket_a4dxch.jpg',
         title: 'Wings 15pcs',
         category: 'wings',
         price: '20.00',
@@ -127,7 +95,7 @@ const MenuData = [
     },
     {
         id: 27,
-        image: wings3,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821825/pizzaman%20website/andas/wings_s_ra6pl7.jpg',
         title: 'Wings 24pcs',
         category: 'wings',
         price: '20.00',
@@ -145,7 +113,7 @@ const MenuData = [
     },
     {
         id: 29,
-        image: jollof2,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821823/pizzaman%20website/andas/jollof-1_sjsplh.jpg',
         title: 'Jollof(Beef & Kckcc)',
         category: 'jollof',
         price: '20.00',
@@ -154,7 +122,7 @@ const MenuData = [
     },
     {
         id: 30,
-        image: jollof3,
+        image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821824/pizzaman%20website/andas/jollof-4_nmlsgh.jpg',
         title: 'Jollof(3 Wings)',
         category: 'jollof',
         price: '20.00',

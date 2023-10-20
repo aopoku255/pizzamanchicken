@@ -19,7 +19,7 @@ const NavLinks = [
         ],
     },
     {
-        id: "our-menu",
+        id: "menu",
         title: "Our Menu",
         subLink: [],
     },

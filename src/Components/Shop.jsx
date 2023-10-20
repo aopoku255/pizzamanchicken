@@ -7,21 +7,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import img1 from '../assets/andas/wings.jpg';
-import img2 from '../assets/andas/friedRice-3.jpg';
-import img3 from '../assets/andas/jollof-1.jpg';
-import img4 from '../assets/andas/noodle-2.jpg';
-import img5 from '../assets/pizza/pizza9.jpg';
 import img6 from '../assets/andas/Beef-Bucket-1.jpg'
-import img7 from '../assets/pizza/yam1.jpg'
-import img8 from '../assets/andas/friedrice-4.jpg'
 import img9 from '../assets/andas/friedrice-5.jpg'
-import img10 from '../assets/andas/wings2.jpg'
-import img11 from '../assets/andas/wings-bucket.jpg'
-import img12 from '../assets/andas/jollof-1.jpg'
-import img13 from '../assets/andas/jollof-2.jpg'
-import img14 from '../assets/pizza/jollof(beef).jpg'
-import img15 from '../assets/andas/pizza.jpg'
+
 import { Modal } from 'reactstrap';
 import './shop.css'
 import { AiOutlineClose } from 'react-icons/ai';
@@ -32,21 +20,20 @@ const Shop = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const shopImg = [
-    { id: 1, image: img1, title: 'Chicken Wings', description: 'Spicy Chicken Wings' },
-    { id: 2, image: img15, title: 'Pizzaman Special', description: 'Perfection And Served' },
-    { id: 3, image: img2, title: 'Fried Rice', description: 'Tasty Fried Rice' },
+    { id: 1, image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821825/pizzaman%20website/andas/wings_ulptys.jpg', title: 'Chicken Wings', description: 'Spicy Chicken Wings' },
+    { id: 2, image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821824/pizzaman%20website/andas/pizza_lgbfqa.jpg', title: 'Pizzaman Special', description: 'Perfection And Served' },
+    { id: 3, image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821823/pizzaman%20website/andas/friedRice-3_vtbboh.jpg', title: 'Fried Rice', description: 'Tasty Fried Rice' },
     { id: 12, image: img6, title: 'Beef Bucket', description: 'Crispy Delight' },
-    { id: 4, image: img4, title: 'Noodles', description: 'Great Taste' },
+    { id: 4, image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821823/pizzaman%20website/andas/noodle-2_aeedeb.jpg', title: 'Noodles', description: 'Great Taste' },
 
-    { id: 6, image: img12, title: 'Jollof + 3pcs Wings', description: 'Flavorful Combo' },
-    // { id: 7, image: img7, title: 'Yam Chips + Two Drums', description: 'Crispy Delight!' },
-    { id: 8, image: img8, title: 'Chickenman FriedRice', description: 'Irresistible Flavor' },
+    { id: 6, image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821823/pizzaman%20website/andas/jollof-1_sjsplh.jpg', title: 'Jollof + 3pcs Wings', description: 'Flavorful Combo' },
+    { id: 8, image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821823/pizzaman%20website/andas/friedrice-4_tzgo4z.jpg', title: 'Chickenman FriedRice', description: 'Irresistible Flavor' },
     { id: 9, image: img9, title: 'FriedRice + 1 Drum', description: 'A Perfect Pair' },
-    { id: 10, image: img10, title: 'Drums 8Pcs', description: 'Flavorful Drumstick Delight' },
-    { id: 11, image: img11, title: 'Drums 12pcs', description: 'A Drumstick Feast!' },
-    { id: 13, image: img13, title: 'Jollof Mini Bucket + Drums', description: 'Flavorful Combo' },
+    { id: 10, image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821825/pizzaman%20website/andas/wings2_akiqt0.jpg', title: 'Drums 8Pcs', description: 'Flavorful Drumstick Delight' },
+    { id: 11, image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821825/pizzaman%20website/andas/wings-bucket_a4dxch.jpg', title: 'Drums 12pcs', description: 'A Drumstick Feast!' },
+    { id: 13, image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821824/pizzaman%20website/andas/jollof-2_yomvka.jpg', title: 'Jollof Mini Bucket + Drums', description: 'Flavorful Combo' },
 
-    { id: 15, image: img3, title: 'Jollof Mini Bucket + Drums', description: 'A Flavorful Feast' },
+    { id: 15, image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821823/pizzaman%20website/andas/jollof-1_sjsplh.jpg', title: 'Jollof Mini Bucket + Drums', description: 'A Flavorful Feast' },
   ];
 
   const toggle = (image) => {
