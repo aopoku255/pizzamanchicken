@@ -38,7 +38,7 @@ const OurTeam = () => {
             </Link>
           </div>
         </div>
-        <img src={member.image} className="lg:h-[40rem] object-cover w-full" />
+        <img src={member.image} className="lg:h-[40rem] object-cover w-full" loading="lazy"/>
         <div className="py-2">
           <p className="text-center text-white text-xl">{member.name}</p>
           <p className="text-center mx-auto xs text-gray-100/80">

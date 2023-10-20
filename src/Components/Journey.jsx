@@ -20,7 +20,7 @@ function Journey() {
       <div className="bg-black flex lg:flex-row flex-col gap-10 font-Montserrat items-center w-fit 69">
      
           <div
-            className="lg:w-[40%] w-[100%] lg:h-[1800px] md: h-[400px]"
+            className="lg:w-[40%] w-[100%] lg:h-[1800px] md: h-[400px]" lazy-load
             style={{
               backgroundImage: `url(${wing1})`,
               backgroundRepeat: 'no-repeat',

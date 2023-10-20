@@ -1,5 +1,6 @@
 
 
+
 import pizza1 from '../assets/andas/pizza.jpg'
 import pizza3 from '../assets/andas/small pizza-2.jpg'
 import pizza4 from '../assets/andas/small pizza-3.jpg'

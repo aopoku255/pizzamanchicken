@@ -42,7 +42,7 @@ const Menu = () => {
           const {id, title, image, price, desc} = menuItem;
           return <article key={id} className='grid grid-cols-3 px-5'>
           <div className='overflow-hidden'>
-            <img src={image} alt={title} className='w-20 h-20 rounded-full' />
+            <img src={image} alt={title} className='w-20 h-20 rounded-full' loading='lazy'/>
           </div>
 
             <div className='md:pl-4 p-2 col-span-2 lg:-ml-[5rem] md:-ml-6 -ml-2'>
