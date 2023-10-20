@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { truckDark, chris } from "../assets";
 
 const AboutHero = () => {
+
   return (
     <div className="font-Montserrat">
       <div
@@ -19,15 +20,8 @@ const AboutHero = () => {
       </div>
 
       <div className="grid md:grid-cols-2 grid-cols-1 py-20 lg:px-14 px-6 lg:gap-12 gap-8 w-full">
-        <div
-          className="h-[400px]"
-          style={{
-            backgroundImage: `url(${chris})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-          }}
-        />
+       
+        <img src={chris} alt="" className=" w-full object-contain" loading="lazy"/>
           <div>
             <h2 className="text-3xl text-center pb-5 border-b-2 border-b-primary">Welcome To Pizzaman Chickenman.</h2>
             <p className="text-center py-5 text-[16px] leading-7 font-light">

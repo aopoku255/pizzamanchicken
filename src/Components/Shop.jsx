@@ -23,6 +23,7 @@ import img13 from '../assets/andas/jollof-2.jpg'
 import img14 from '../assets/pizza/jollof(beef).jpg'
 import img15 from '../assets/andas/pizza.jpg'
 import { Modal } from 'reactstrap';
+import './shop.css'
 import { AiOutlineClose } from 'react-icons/ai';
 
 
@@ -86,11 +87,19 @@ const Shop = () => {
       >
         {shopImg.map((shop) => (
           <SwiperSlide key={shop.id}>
-            <div className={`group cursor-pointer transform transition-transform hover:scale-95 ${shop.id}`}  onClick={() => toggle(shop.image)}>
-              <Link to="">
-                <img
-                  src={shop.image}
-                />
+            <div className={`group cursor-pointer transform transition-transform hover:scale-95   ${shop.id}`}  onClick={() => toggle(shop.image)}>
+              <Link to="" className=''>
+               <div className='lg:w-[19rem] lg:h-[19rem] md:w-[16rem] md:h-[18rem] w-[28rem] h-[19rem]'
+               style={{
+                backgroundImage: `url(${shop.image})`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
+              }}
+              
+               >
+
+               </div>
               </Link>
               <div className="bg-black opacity-30 absolute inset-0 rounded-2xl"></div>
               <div className="absolute w-full text-white text-center opacity-0 bottom-0 lg:group-hover:bottom-20 md:group-hover:bottom-20 group-hover:bottom-40 group-hover:opacity-100 transition-all duration-300">

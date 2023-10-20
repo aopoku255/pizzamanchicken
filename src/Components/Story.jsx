@@ -47,7 +47,7 @@ const Story = () => {
               </svg>
             </div>
           )}
-          <img src={youtube} alt="Background Image" className="" />
+          <img src={youtube} alt="Background Image" loading="lazy" />
         </div>
 
         <Modal isOpen={modal} toggle={toggle} className="modal">
@@ -63,6 +63,7 @@ const Story = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
             autoplay
+            loading="lazy"
           ></iframe>
         </Modal>
       </div>
