@@ -177,7 +177,7 @@ function Journey() {
           </h3>
           <p className="text-3xl pt-3">Meet Our Team</p>
         </div>
-        <div className="md:w-[35%] w-full flex gap-10">
+        <div className="md:w-[35%]  w-full flex gap-2">
           <div className="w-1 h-full bg-black" />
           <p>
             A master in the art of several rare cuisines, Chefs will surprise
@@ -186,10 +186,10 @@ function Journey() {
         </div>
         <div className="md:w-[20%] w-full">
           <a
-            href=""
+            href="our-team"
             className="px-8 py-2 border border-black hover:bg-black hover:text-white transition-all duration-200 ease-out"
           >
-            View More
+            View Team
           </a>
         </div>
       </div>
