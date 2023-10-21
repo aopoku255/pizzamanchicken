@@ -1,14 +1,18 @@
 
 export const sliderData = [
   {
+
     image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821825/pizzaman%20website/andas/wings-bucket_a4dxch.jpg',
+    // image:'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821823/pizzaman%20website/andas/friedRice-3_vtbboh.jpg',
     heading: "Help End the Scam",
     desc: "Only Call Us on",
     button: " 0553871228",
     order:'Order Now'
   },
   {
-    image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821824/pizzaman%20website/andas/pizza_lgbfqa.jpg',
+    // image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821824/pizzaman%20website/andas/pizza_lgbfqa.jpg',
+    image:'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821824/pizzaman%20website/andas/small_pizza-2_yvjdam.jpg',
+
     heading: "Uphold Our Policy",
     desc: "No Food, No Payment",
     button: "0553871228",
