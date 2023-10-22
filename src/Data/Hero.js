@@ -10,8 +10,8 @@ export const sliderData = [
     order:'Order Now'
   },
   {
-    // image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821824/pizzaman%20website/andas/pizza_lgbfqa.jpg',
-    image:'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821824/pizzaman%20website/andas/small_pizza-2_yvjdam.jpg',
+    image: 'https://res.cloudinary.com/dmtukjeoa/image/upload/v1697821824/pizzaman%20website/andas/pizza_lgbfqa.jpg',
+
 
     heading: "Uphold Our Policy",
     desc: "No Food, No Payment",

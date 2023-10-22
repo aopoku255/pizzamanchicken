@@ -50,7 +50,7 @@ body{
 }
 
 .counting{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../src/assets/andas/friedrice-5.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../src/assets/andas/friedrice-5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
