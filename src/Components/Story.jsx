@@ -34,12 +34,14 @@ const Story = () => {
       <div className=" video-container">
         <div className="video-overlay mt-4">
           {!modal && (
-            <div className="play-button" onClick={toggle}>
+            <div className=" play-button" onClick={toggle}>
+              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
                 height="50"
                 viewBox="0 0 24 24"
+                
               >
                 <path fill="#fff" d="M8 5v14l11-7z" />
                 <path d="M0 0h24v24H0z" fill="none" />

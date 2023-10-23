@@ -29,7 +29,7 @@ useEffect(() => {
       </button>
     
       <button
-        className={`text-white md:px-4 px-2 py-1 ml-3 hover:bg-red-700 hover:text-white ${isactive === 'noodle' ? 'bg-red-700' : ''}`}
+        className={`text-white md:px-4 px-2 py-1 ml-3 hover:bg-red-700 hover:text-white ${isactive === 'noodles' ? 'bg-red-700' : ''}`}
         onClick={() => handleFilter('noodles')}
       >
         Noodles
