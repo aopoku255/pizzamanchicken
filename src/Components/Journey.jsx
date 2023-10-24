@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { wing1 } from '../assets'
 import { Modal } from 'reactstrap'
+import {Link} from 'react-router-dom'
 import './Story.css'
 import { AiOutlineClose } from 'react-icons/ai'
 
