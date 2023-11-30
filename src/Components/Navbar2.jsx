@@ -34,10 +34,10 @@ function Navbar2() {
     <div
       className={`${
         navbar ? "bg-white" : "bg-none"
-      } md:px-20 px-5 h-20 flex gap-20 justify-between items-center fixed left-0 right-0 ease-in-out duration-500 z-50`}
+      } md:px-20 px-5 h-24 flex gap-20 justify-between items-center fixed left-0 right-0 ease-in-out duration-500 z-50`}
     >
-      <Link to="/">
-        <img src={logo} width={100} alt="Logo" />
+      <Link to="/" className="mt-4">
+        <img src={logo} alt="Logo" className="lg:h-[7rem] h-[4rem]" />
       </Link>
 
       <nav className="relative lg:block hidden">
@@ -50,15 +50,15 @@ function Navbar2() {
               onMouseOver={() => setVisible(navLink?.title)}
               onMouseLeave={() => setVisible("")}
             >
-                <Link
-                  to={`/${navLink?.id}`}
-                  className={`${
-                    active === navLink?.title ? "text-primary" : "text-[#fff]"
-                  } ${navbar && "text-[black]"}
+              <Link
+                to={`/${navLink?.id}`}
+                className={`${
+                  active === navLink?.title ? "text-primary" : "text-[#fff]"
+                } ${navbar && "text-[black]"}
             hover:text-primary uppercase text-base font-semibold h-[5rem] flex justify-center items-center`}
-                >
-                  {navLink?.title}
-                </Link>
+              >
+                {navLink?.title}
+              </Link>
               <ul
                 className={`${
                   visible === navLink?.title ? "block" : "hidden"
@@ -99,7 +99,7 @@ function Navbar2() {
         />
       ) : (
         <AiOutlineClose
-         size={30}
+          size={30}
           className={`lg:hidden block cursor-pointer ${
             navbar ? "text-primary" : "text-white"
           }`}
