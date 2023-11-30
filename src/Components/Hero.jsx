@@ -46,7 +46,7 @@ const Hero = () => {
             >
               {index === currentSlide && (
                 <div
-                  className="h-screen w-screen"
+                  className="h-screen w-screen flex justify-center items-center"
                   style={{
                     backgroundImage: `url(${slide.image})`,
                     backgroundRepeat: "no-repeat",
@@ -56,13 +56,15 @@ const Hero = () => {
                 >
                   <div className="absolute top-0 left-0 w-full h-screen bg-black opacity-40"></div>
                   <div className="content">
-                    <h2 className="text-xl font-bold">{slide.heading}</h2>
-                    <p>
-                      {slide.desc} {index === 0 ? <b>0302753430</b> : <></>}
+                    <h1 className="lg:text-[6rem] md:text-[4rem] text-[3rem] font-bold text-white leading-[1em] text-center lg:text-left">
+                      {slide.heading}
+                    </h1>
+                    <p className="text-[2rem] lg:self-start text-center">
+                      {slide.desc}{" "}
+                      {index === 0 ? <b>+233 302 753 430</b> : <></>}
                     </p>
-                    <hr />
-                    <div className="md:flex flex-row  items-center md:gap-x-4 md:gap-y-0 gap-y-4">
-                      <button className="relative text-white bg-primary px-10 py-3 hover:opacity-70 transition-all duration-400">
+                    <div className="flex items-center space-x-4 lg:self-start self-center md:ml-0 ml-14">
+                      <button className="text-white bg-primary px-10 py-3 hover:opacity-70 transition-all duration-400">
                         <a
                           href="https://wa.me/+233553871228?text=Hello! Pizzaman Chickenman"
                           target="_blank"
@@ -72,13 +74,12 @@ const Hero = () => {
                           <span>{slide.button}</span>
                         </a>
                       </button>
-                      <button className="relative text-white md:mt-0 mt-4 bg-primary px-10 py-3 hover:opacity-70 transition-all duration-400">
+                      <button className="text-white md:mt-0 whitespace-nowrap bg-primary px-10 py-3 hover:opacity-70 transition-all duration-400">
                         <Link
                           to="menu"
                           target="_blank"
                           class="flex gap-2 items-center"
                         >
-                          {/* <AiOutlineShoppingCart /> */}
                           <div className="w-5 ">
                             <img src={now} className="rounded-full w-full" />
                           </div>
@@ -98,3 +99,34 @@ const Hero = () => {
 };
 
 export default Hero;
+
+{
+  /* <div className="content">
+  <h2 className="text-xl font-bold">{slide.heading}</h2>
+  <p>
+    {slide.desc} {index === 0 ? <b>0302753430</b> : <></>}
+  </p>
+  <hr />
+  <div className="md:flex flex-row  items-center md:gap-x-4 md:gap-y-0 gap-y-4">
+    <button className="relative text-white bg-primary px-10 py-3 hover:opacity-70 transition-all duration-400">
+      <a
+        href="https://wa.me/+233553871228?text=Hello! Pizzaman Chickenman"
+        target="_blank"
+        class="flex gap-2 items-center"
+      >
+        <RiWhatsappFill />
+        <span>{slide.button}</span>
+      </a>
+    </button>
+    <button className="relative text-white md:mt-0 mt-4 bg-primary px-10 py-3 hover:opacity-70 transition-all duration-400">
+      <Link to="menu" target="_blank" class="flex gap-2 items-center">
+      
+        <div className="w-5 ">
+          <img src={now} className="rounded-full w-full" />
+        </div>
+        <span>{slide.order}</span>
+      </Link>
+    </button>
+  </div>
+</div>; */
+}

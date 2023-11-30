@@ -13,18 +13,24 @@
   
   .current {
     opacity: 1;
-    transform: translateX(0);
+    /* transform: translateX(0); */
   }
   
   .content {
     position: absolute;
-    top: 18rem;
-    left: 5rem;
-    opacity: 0;
-    width: 50%;
+    /* top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    /* width: 60%; */
     color: #fff;
-    padding: 3rem;
-    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    /* padding: 3rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: rgba(0, 0, 0, 0.3); */
     animation: slide-up 1s ease 0.5s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
