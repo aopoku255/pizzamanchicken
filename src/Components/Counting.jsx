@@ -22,10 +22,10 @@ const Counting = () => {
                             </div>
                     
 
-                            <div className='flex flex-col items-center text-center'>
-                                <h2 className='text-center lg:text-5xl md:text-5xl text-4xl font-bold'>{counterOn && <CountUp start={0} end={51} duration={5} delay={0} />}</h2>
+                            {/* <div className='flex flex-col items-center text-center'>
+                                <h2 className='text-center lg:text-5xl md:text-5xl text-4xl font-bold'>{counterOn && <CountUp start={0} end={62} duration={5} delay={0} />}</h2>
                                 <span className='font-custom text-gray-400'>Outlets</span>
-                            </div>
+                            </div> */}
                      </div>
                 {/* </div> */}
 
