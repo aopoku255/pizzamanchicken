@@ -9,22 +9,18 @@ import Footer1 from "../Components/Footer1";
 import { Helmet } from "react-helmet";
 
 const Home = () => {
-  return(
-   <>
-   <Helmet>
-    
-   </Helmet>
-    <Hero/>
-    <Counting/>
-    <Story/>
-    <Shop/>
-    <Menu/>
-    <Footer1/>
-    <ScrollUp />
-   </>
-    
-    
-  )
-}
+  return (
+    <>
+      <Helmet></Helmet>
+      <Hero />
+      <Counting />
+      <Story />
+      <Shop />
+      <Menu />
+      <Footer1 />
+      <ScrollUp />
+    </>
+  );
+};
 
 export default Home;
