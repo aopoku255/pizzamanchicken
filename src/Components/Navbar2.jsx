@@ -51,7 +51,7 @@ function Navbar2() {
               onMouseLeave={() => setVisible("")}
             >
               <Link
-                to={`/${navLink?.id}`}
+                to={navLink?.id ==="menu" ? "https://chrisb.app/menu": `/${navLink?.id}`Ï}
                 className={`${
                   active === navLink?.title ? "text-primary" : "text-[#fff]"
                 } ${navbar && "text-[black]"}
