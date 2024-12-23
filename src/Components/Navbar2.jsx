@@ -126,7 +126,7 @@ function Navbar2() {
                   </Link>
                 ) : (
                   <Link
-                    to={`/${navLink.id}`}
+                     to={navLink?.id ==="menu" ? "https://chrisb.app/menu": `/${navLink?.id}`}
                     className={`${
                       active === navLink.title
                         ? "text-primary"
