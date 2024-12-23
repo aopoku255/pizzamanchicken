@@ -76,7 +76,7 @@ const Hero = () => {
                       </button>
                       <button className="text-white md:mt-0 whitespace-nowrap bg-primary px-10 py-3 hover:opacity-70 transition-all duration-400">
                         <Link
-                          to="menu"
+                          to="https://chrisb.app/menu"
                           target="_blank"
                           class="flex gap-2 items-center"
                         >
