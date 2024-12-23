@@ -63,32 +63,32 @@ const Hero = () => {
                       {slide.desc}{" "}
                       {index === 0 ? <b>+233 302 753 430</b> : <></>}
                     </p>
-                     <div className="flex flex-wrap items-center gap-4 lg:self-start self-center md:ml-0 ml-14">
-                      <button className="text-white bg-primary rounded-lg px-8 py-3 hover:opacity-70 transition-all duration-400">
-                        <a
-                          href="https://wa.me/+233553871228?text=Hello! Pizzaman Chickenman"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-2 whitespace-nowrap"
-                        >
-                          <RiWhatsappFill />
-                          <span>{slide.button}</span>
-                        </a>
-                      </button>
-                      
-                      <button className="text-white bg-primary rounded-lg px-8 py-3 hover:opacity-70 transition-all duration-400">
-                        <Link
-                          to="https://chrisb.app/menu"
-                          target="_blank"
-                          className="flex items-center gap-2 whitespace-nowrap"
-                        >
-                          <div className="w-5">
-                            <img src={now} alt="Order Now" className="rounded-full w-full" />
-                          </div>
-                          <span>{slide.order}</span>
-                        </Link>
-                      </button>
-                    </div>
+                      <div className="flex flex-col md:flex-row items-center gap-4 w-[90%] md:w-auto mx-auto md:mx-0 md:self-start self-center">
+                        <button className="w-full md:w-auto text-white bg-primary rounded-lg px-8 py-3 hover:opacity-70 transition-all duration-400">
+                          <a
+                            href="https://wa.me/+233553871228?text=Hello! Pizzaman Chickenman"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center md:justify-start gap-2 whitespace-nowrap"
+                          >
+                            <RiWhatsappFill />
+                            <span>{slide.button}</span>
+                          </a>
+                        </button>
+                        
+                        <button className="w-full md:w-auto text-white bg-primary rounded-lg px-8 py-3 hover:opacity-70 transition-all duration-400">
+                          <Link
+                            to="https://chrisb.app/menu"
+                            target="_blank"
+                            className="flex items-center justify-center md:justify-start gap-2 whitespace-nowrap"
+                          >
+                            <div className="w-5">
+                              <img src={now} alt="Order Now" className="rounded-full w-full" />
+                            </div>
+                            <span>{slide.order}</span>
+                          </Link>
+                        </button>
+                      </div>
                   </div>
                 </div>
               )}
