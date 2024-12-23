@@ -115,7 +115,7 @@ function Navbar2() {
               <li key={index} className="relative inline-block">
                 {navLink.id === "our-menu" ? (
                   <Link
-                    to="/menu"
+                    to="https://chrisb.app/menu"
                     className={`${
                       active === navLink.title
                         ? "text-primary"
