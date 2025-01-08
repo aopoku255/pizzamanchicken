@@ -17,7 +17,7 @@ const Counting = () => {
                                 <span className='font-custom text-gray-400'>TRUCKS</span>
                             </div>
                             <div className='flex flex-col items-center text-center'>
-                                <h2 className='text-center lg:text-5xl md:text-5xl text-4xl font-bold'>{counterOn && <CountUp start={0} end={52} duration={5} delay={0} />}</h2>
+                                <h2 className='text-center lg:text-5xl md:text-5xl text-4xl font-bold'>{counterOn && <CountUp start={0} end={80} duration={5} delay={0} />}</h2>
                                 <span className='font-custom text-gray-400'> SHOPS</span>
                             </div>
                     
