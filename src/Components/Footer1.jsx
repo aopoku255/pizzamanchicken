@@ -68,6 +68,11 @@ const Footer1 = () => {
                 <a href="https://www.facebook.com/pizza%20man%20ghana" className="p-4 rounded-full border border-white hover:bg-primary hover:border-primary transition-all duration-200 ease-out"><FaFacebookF/></a>
                 <a href="https://twitter.com/pizzamanghana" className="p-4 rounded-full border border-white hover:bg-primary hover:border-primary transition-all duration-200 ease-out"><FaTwitter/></a>
                 <a href="https://www.instagram.com/pizzamanchickenman/" className="p-4 rounded-full border border-white hover:bg-primary hover:border-primary transition-all duration-200 ease-out"><FaInstagram/></a>
+	        <a
+						href="https://www.tiktok.com/@pizzamanchickenman_"
+						className="p-4 rounded-full border border-white hover:bg-primary hover:border-primary transition-all duration-200 ease-out">
+						<FaTiktok />
+					</a>
         </div>
       </div>
     </div>
