@@ -1,239 +1,726 @@
 const Accra = [
 	{
-		id: 1,
-		location: "Adenta Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15879.993176040858!2d-0.19899974458008865!3d5.713380300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d16ca1a19cf%3A0x4136cd8c520bb97f!2sPizzaman~Chickenman%20Adenta!5e0!3m2!1sen!2sgh!4v1696348067304!5m2!1sen!2sgh",
+		"name": "AHODWO BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.6653,
+			"longitude": -1.6178,
+		},
 	},
 	{
-		id: 2,
-		location: "Taifa Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.4138400957713!2d-0.250326!3d5.653120599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9f1607a1dea3%3A0xed5b77276455c242!2sPIZZAMAN%20CHICKENMAN%2CTAIFA!5e0!3m2!1sen!2sgh!4v1696423644344!5m2!1sen!2sgh",
+		"name": "AIRPORT BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.7146,
+			"longitude": -1.5985,
+		},
 	},
 	{
-		id: 3,
-		location: "Lakeside Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3970.4171139881687!2d-0.16743048255615234!3d5.652643300000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9dfdab6b1201%3A0xc811e9395a6dd2fa!2sChickenman%20~%20Pizzaman%20Lakeside.!5e0!3m2!1sen!2sgh!4v1696421799718!5m2!1sen!2sgh",
+		"name": "SUAME BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.7303,
+			"longitude": -1.6335,
+		},
 	},
 	{
-		id: 4,
-		location: "East Legon Hills Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d254104.097654361!2d-0.2711358!3d5.6585578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf83d7bf23aa27%3A0xfe407e50fddef89f!2sPizzaman%20Chickenman%20-%20East%20Legon%20Hills%2C%20Nmai%20Djorn!5e0!3m2!1sen!2sgh!4v1696422036171!5m2!1sen!2sgh",
+		"name": "KWADASO BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.7015,
+			"longitude": -1.652,
+		},
 	},
 	{
-		id: 5,
-		location: "Tema Comm.25 Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7939.802511808463!2d0.0171661!3d5.7273611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10207fe058a8f341%3A0x59c52c788583cc14!2sCommunity%2025%2C%20Tema%2C%20Tema!5e0!3m2!1sen!2sgh!4v1696422092773!5m2!1sen!2sgh",
+		"name": "DAKODWOM BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.669,
+			"longitude": -1.6321,
+		},
 	},
 	{
-		id: 6,
-		location: "Tema Comm.10 Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.429579418978!2d-0.0289167!3d5.6508256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf81a5cb05afcf%3A0x3e91ed61e5db339e!2sPIZZAMAN-CHICKENMAN%20TEMA%20COMMUNITY%2010!5e0!3m2!1sen!2sgh!4v1696422357344!5m2!1sen!2sgh",
+		"name": "KNUST BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.6786,
+			"longitude": -1.5591,
+		},
 	},
 	{
-		id: 7,
-		location: "Dzorwulu Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63531.97584668922!2d-0.2385544!3d5.6041224!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9b217987e83f%3A0x8fd1cd39ba38db59!2sPizzaman%20Chickenman%20-%20Dzorwulu!5e0!3m2!1sen!2sgh!4v1696423473180!5m2!1sen!2sgh",
+		"name": "DANSOMAN BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.538,
+			"longitude": -0.2651,
+		},
 	},
 	{
-		id: 8,
-		location: "Kissieman Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63528.19228395716!2d-0.25063792089843745!3d5.6387898000000085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9ba039fdce63%3A0x4272e430834e6431!2sPizzaman%20Chickenman%20-%20Kissieman!5e0!3m2!1sen!2sgh!4v1696422732746!5m2!1sen!2sgh",
+		"name": "AWOSHIE BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.5853,
+			"longitude": -0.2753,
+		},
 	},
 	{
-		id: 9,
-		location: "Atomic Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63528.19228395716!2d-0.2506379!3d5.6387898!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9fb257650723%3A0xe3d5d1cc87c1a76b!2sPIZZAMAN%20CHICKENMAN%20ATOMIC%20JUNCTION!5e0!3m2!1sen!2sgh!4v1696420452952!5m2!1sen!2sgh",
+		"name": "EAST LEGON BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.647,
+			"longitude": -0.1543,
+		},
 	},
 	{
-		id: 10,
-		location: "UPSA Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127042.23966484965!2d-0.2934143!3d5.7030288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d6d9cd08edf%3A0xf308d5d877248573!2sPizzaman%20Chickenman%20-%20Upsa!5e0!3m2!1sen!2sgh!4v1696420803878!5m2!1sen!2sgh",
+		"name": "SPINTEX BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.6325,
+			"longitude": -0.095,
+		},
 	},
 	{
-		id: 11,
-		location: "Ofankor Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31762.239842922383!2d-0.2882702!3d5.6726017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9f101412eb4d%3A0xde954636ebcb1910!2sPizzaman%20chickenman%20ofankor!5e0!3m2!1sen!2sgh!4v1696423370033!5m2!1sen!2sgh",
+		"name": "WEIJA BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.5469,
+			"longitude": -0.3388,
+		},
 	},
 	{
-		id: 12,
-		location: "Ashongman Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63524.98294786506!2d-0.2389108!3d5.6680301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9ff2c7cac5bd%3A0x23774afbeca99374!2sPIZZAMAN%20CHICKENMAN%20ASHONGMAN%E2%9C%93%C2%AE!5e0!3m2!1sen!2sgh!4v1696421918283!5m2!1sen!2sgh",
+		"name": "TEMA COMM 10 BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.6612,
+			"longitude": -0.0167,
+		},
 	},
 	{
-		id: 13,
-		location: "Kasoa Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127078.75104988902!2d-0.48736524179681817!3d5.53569640000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfbb33c41a7d55%3A0xf89a5bf2213abbc5!2sChicken%20Man%20Pizza%20Man%20-%20Kasoa%20Brunch!5e0!3m2!1sen!2sgh!4v1696423724990!5m2!1sen!2sgh",
-	},
-
-	{
-		id: 14,
-		location: "North Kaneshie Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1985.3860565947684!2d-0.269889!3d5.6006475!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf99f3f198b02b%3A0x842335a9a742509e!2sPizzaman%20~%20chickenman%20North%20kaneshie.!5e0!3m2!1sen!2sgh!4v1696423144127!5m2!1sen!2sgh",
+		"name": "KASOA BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.5394,
+			"longitude": -0.4285,
+		},
 	},
 	{
-		id: 15,
-		location: "Tema Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d254097.84482392564!2d-0.4375332!3d5.6727695!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9b2f4a216d7b%3A0xc9b383a531727727!2sPizzaman%20Chickenman%20TEMA!5e0!3m2!1sen!2sgh!4v1696421262550!5m2!1sen!2sgh",
+		"name": "NORTH KANESHIE BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.5854,
+			"longitude": -0.2319,
+		},
 	},
 	{
-		id: 16,
-		location: "Weija Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7942.039659719194!2d-0.3344818!3d5.5640782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfa37a93ef8adf%3A0x149f40725dacf221!2sPIZZAMAN%20CHICKENMAN%20WEIJA!5e0!3m2!1sen!2sgh!4v1696421387131!5m2!1sen!2sgh",
+		"name": "EAST LEGON HILLS BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.681812,
+			"longitude": -0.120062,
+		},
 	},
 	{
-		id: 17,
-		location: "Awoshie Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7941.773204038675!2d-0.2896061651123047!3d5.583775700000011!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf99f1f3c3f335%3A0xcc0bd9e7531213bf!2sPizzaman-Chickenman%2C%20Awoshie!5e0!3m2!1sen!2sgh!4v1696423245809!5m2!1sen!2sgh",
+		"name": "TANOSO BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.6961,
+			"longitude": -1.6823,
+		},
 	},
 	{
-		id: 18,
-		location: "East Legon Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31764.05371361001!2d-0.16151481453102956!3d5.6395648757127015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9dc924fbd3c7%3A0x4a773f1afdda0dfb!2sPizzaman%20Chickenman%20-%20East%20Legon!5e0!3m2!1sen!2sgh!4v1696421636979!5m2!1sen!2sgh",
+		"name": "KISSIEMAN BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.636688,
+			"longitude": -0.215813,
+		},
 	},
 	{
-		id: 19,
-		location: "Dansoman Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127056.21469583652!2d-0.1615149!3d5.6395656!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf971c91c9b28f%3A0x37e4c6cd93448236!2sPIZZAMAN-CHICKENMAN%20DANSOMAN!5e0!3m2!1sen!2sgh!4v1696420050929!5m2!1sen!2sgh",
+		"name": "UPSA BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.659688,
+			"longitude": -0.166563,
+		},
 	},
 	{
-		id: 20,
-		location: "Spintex Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "ASHONGMAN BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.689687,
+			"longitude": -0.231938,
+		},
 	},
 	{
-		id: 21,
-		location: "Ashaiman Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "SANTASI BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.628813,
+			"longitude": -1.649563,
+		},
 	},
 	{
-		id: 22,
-		location: "Lapaz Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "ADENTA BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.68875,
+			"longitude": -0.17125,
+		},
 	},
 	{
-		id: 23,
-		location: "Kotobabi Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "OFANKOR BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.658188,
+			"longitude": -0.267563,
+		},
 	},
 	{
-		id: 24,
-		location: "Buduburam Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "TEMA COMM. 25 BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.736313,
+			"longitude": 0.030687,
+		},
 	},
 	{
-		id: 25,
-		location: "Adenta Rowi Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "TESHIE BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.578062,
+			"longitude": -0.130312,
+		},
 	},
 	{
-		id: 26,
-		location: "Teshie Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "ATOMIC BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.667063,
+			"longitude": -0.179437,
+		},
 	},
 	{
-		id: 27,
-		location: "Kasoa Nyanyano Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "DZORWULU BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.608688,
+			"longitude": -0.206687,
+		},
 	},
 	{
-		id: 28,
-		location: "Amasaman Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "LAKESIDE BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.695673503597621,
+			"longitude": -0.13417965767138434,
+		},
 	},
 	{
-		id: 29,
-		location: "Ablekuma Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "FAWOADE BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.779063,
+			"longitude": -1.583937,
+		},
 	},
 	{
-		id: 30,
-		location: "Santa Maria Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "EJISU BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.721925357256739,
+			"longitude": -1.4738610999999997,
+		},
 	},
 	{
-		id: 31,
-		location: "Kwabenya Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "ATONSU BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.655940521290146,
+			"longitude": -1.5899975284787726,
+		},
 	},
 	{
-		id: 32,
-		location: "Dome Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "AMASAMAN BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.698014686128185,
+			"longitude": -0.31435660342206073,
+		},
 	},
 	{
-		id: 33,
-		location: "Tabora Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "ABLEKUMA BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.626985321006303,
+			"longitude": -0.3116848171505829,
+		},
 	},
 	{
-		id: 34,
-		location: "Oyarifa Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "SOWUTUOM BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.6092767774774135,
+			"longitude": -0.27492487004342553,
+		},
 	},
 	{
-		id: 35,
-		location: "Mateheko Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "LEGON DRIVE THRU BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.64756733731462,
+			"longitude": -0.17898637975944212,
+		},
 	},
 	{
-		id: 36,
-		location: "La Palm Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "KWABENYA BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.691866177749346,
+			"longitude": -0.24837619776339892,
+		},
 	},
 	{
-		id: 37,
-		location: "Amrahia Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "DOME BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.652495861053467,
+			"longitude": -0.23739519715309143,
+		},
 	},
 	{
-		id: 38,
-		location: "Legon Drive Thru Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "TABORA BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.621334948841979,
+			"longitude": -0.26269879776455435,
+		},
 	},
 	{
-		id: 39,
-		location: "Abokobi Branch",
-		btn: "Read More",
-		map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63526.87327070365!2d-0.0639356!3d5.6508256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85efcf85525b%3A0x99d015209c1405cc!2sPizza-man%20Chicken-man%20-%20Manet%2C%20spintex!5e0!3m2!1sen!2sgh!4v1696422470688!5m2!1sen!2sgh",
+		"name": "OYARIFA BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.767855495863362,
+			"longitude": -0.1804459895214619,
+		},
+	},
+	{
+		"name": "ASOKWA BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.6737532,
+			"longitude": -1.604406,
+		},
+	},
+	{
+		"name": "KASOA NYANYANO",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.505495132506627,
+			"longitude": -0.4198972536457515,
+		},
+	},
+	{
+		"name": "AMRAHIA BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.75525,
+			"longitude": -0.148108,
+		},
+	},
+	{
+		"name": "MATAHEKO BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.570313,
+			"longitude": -0.253938,
+		},
+	},
+	{
+		"name": "MILE 7 BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.630762,
+			"longitude": -0.24347,
+		},
+	},
+	{
+		"name": "ABOKOBI BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.723066,
+			"longitude": -0.203138,
+		},
+	},
+	{
+		"name": "PALM WINE BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.576437,
+			"longitude": -0.152688,
+		},
+	},
+	{
+		"name": "ADENTA ROWI BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.717103958129883,
+			"longitude": -0.16518741846084595,
+		},
+	},
+	{
+		"name": "BUDUBURAM BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.522478103637695,
+			"longitude": -0.46987050771713257,
+		},
+	},
+	{
+		"name": "KOTOBABI BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.592694,
+			"longitude": -0.2053611,
+		},
+	},
+	{
+		"name": "LAPAZ BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.606143,
+			"longitude": -0.250949,
+		},
+	},
+	{
+		"name": "ASHAIMAN BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.684405,
+			"longitude": -0.033757,
+		},
+	},
+	{
+		"name": "AFRANCHO TRUCK 6",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.7686353838937094,
+			"longitude": -1.6449916365178574,
+		},
+	},
+	{
+		"name": "KENYASI TRUCK 2",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.737397899874828,
+			"longitude": -1.563629885219311,
+		},
+	},
+	{
+		"name": "KORLEBU TRUCK 5",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.535492489733412,
+			"longitude": -0.2288702471802637,
+		},
+	},
+	{
+		"name": "AMASAMAN TRUCK 4",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.701450264925865,
+			"longitude": -0.2955539339579596,
+		},
+	},
+	{
+		"name": "DARKUMAN TRUCK 3",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.576877434756968,
+			"longitude": -0.25454792944778565,
+		},
+	},
+	{
+		"name": "TAFO TRUCK 1",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.7436971950098465,
+			"longitude": -1.611255237262156,
+		},
+	},
+	{
+		"name": "KOKROBITE TRUCK 8",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.533156072478109,
+			"longitude": -0.3858023389502309,
+		},
+	},
+	{
+		"name": "LABOUR TRUCK",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.6896179116567165,
+			"longitude": -1.6133913618077578,
+		},
+	},
+	{
+		"name": "LEGON TRUCK",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.65767,
+			"longitude": -0.18129,
+		},
+	},
+	{
+		"name": "LASHIBI BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.638123,
+			"longitude": -0.062233,
+		},
+	},
+	{
+		"name": "TEMA COMM 7 BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.662872,
+			"longitude": -0.00991,
+		},
+	},
+	{
+		"name": "TESANO BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.602218544818661,
+			"longitude": -0.22531894907651165,
+		},
+	},
+	{
+		"name": "CIRCLE BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.570971765230523,
+			"longitude": -0.20868709386543582,
+		},
+	},
+	{
+		"name": "GBAWE BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.577231926642331,
+			"longitude": -0.302064458112799,
+		},
+	},
+	{
+		"name": "ABREPO TRUCK",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.7437438,
+			"longitude": -1.6111932,
+		},
+	},
+	{
+		"name": "UCC BRANCH",
+		"region": "CENTRAL REGION",
+		"coordinates": {
+			"latitude": 5.1131910671467224,
+			"longitude": -1.2789299400654754,
+		},
+	},
+	{
+		"name": "MANKESSIM SHELL BRANCH",
+		"region": "CENTRAL REGION",
+		"coordinates": {
+			"latitude": 5.267947944750616,
+			"longitude": -1.0170046711485763,
+		},
+	},
+	{
+		"name": "ABURA BRANCH",
+		"region": "CENTRAL REGION",
+		"coordinates": {
+			"latitude": 5.134541494842621,
+			"longitude": -1.2776399400653473,
+		},
+	},
+	{
+		"name": "HO TRAFALGAR BRANCH",
+		"region": "VOLTA REGION",
+		"coordinates": {
+			"latitude": 6.603972327529999,
+			"longitude": 0.4829505887817528,
+		},
+	},
+	{
+		"name": "HO BANKOE BRANCH",
+		"region": "VOLTA REGION",
+		"coordinates": {
+			"latitude": 6.617753940437047,
+			"longitude": 0.4724065599462926,
+		},
+	},
+	{
+		"name": "AFLAO SHELL BRANCH",
+		"region": "VOLTA REGION",
+		"coordinates": {
+			"latitude": 6.118142291897221,
+			"longitude": 1.1891298358018854,
+		},
+	},
+	{
+		"name": "TARKWA UMAT BRANCH",
+		"region": "WESTERN REGION",
+		"coordinates": {
+			"latitude": 5.295436489536277,
+			"longitude": -2.0018414112960543,
+		},
+	},
+	{
+		"name": "TAKORADI LIBERATION BRANCH",
+		"region": "WESTERN REGION",
+		"coordinates": {
+			"latitude": 4.900490657781866,
+			"longitude": -1.7643063370470518,
+		},
+	},
+	{
+		"name": "TARKWA MOBIK STATION BRANCH",
+		"region": "WESTERN REGION",
+		"coordinates": {
+			"latitude": 5.301118472610943,
+			"longitude": -1.9884195807858276,
+		},
+	},
+	{
+		"name": "BOGOSO MOBIK STATION BRANCH",
+		"region": "WESTERN REGION",
+		"coordinates": {
+			"latitude": 5.568951245591602,
+			"longitude": -2.0193348824587942,
+		},
+	},
+	{
+		"name": "TEPA BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 7.006166925798797,
+			"longitude": -2.1648602220882065,
+		},
+	},
+	{
+		"name": "GOASO BRANCH",
+		"region": "AHAFO REGION",
+		"coordinates": {
+			"latitude": 6.804807446450081,
+			"longitude": -2.514215568954432,
+		},
+	},
+	{
+		"name": "SUNYANI BRANCH",
+		"region": "BONO REGION",
+		"coordinates": {
+			"latitude": 7.342660338361132,
+			"longitude": -2.3217295339795347,
+		},
+	},
+	{
+		"name": "TECHIMAN BRANCH",
+		"region": "BONO EAST REGION",
+		"coordinates": {
+			"latitude": 7.580493770616583,
+			"longitude": -1.9436572588955885,
+		},
+	},
+	{
+		"name": "TAMALE JUBILEE BRANCH",
+		"region": "NORTHERN REGION",
+		"coordinates": {
+			"latitude": 9.40171123685499,
+			"longitude": -0.8384731045087763,
+		},
+	},
+	{
+		"name": "BOLGATANGA BRANCH",
+		"region": "UPPER EAST REGION",
+		"coordinates": {
+			"latitude": 10.795182758950801,
+			"longitude": -0.8495554736046195,
+		},
+	},
+	{
+		"name": "ABREPO BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.711955155265377,
+			"longitude": -1.639439304150716,
+		},
+	},
+	{
+		"name": "KROMOASE BRANCH",
+		"region": "ASHANTI REGION",
+		"coordinates": {
+			"latitude": 6.659785366262482,
+			"longitude": -1.6795736348695018,
+		},
+	},
+	{
+		"name": "WINNEBA BRANCH",
+		"region": "CENTRAL REGION",
+		"coordinates": {
+			"latitude": 5.359027385954641,
+			"longitude": -0.6332694610284471,
+		},
+	},
+	{
+		"name": "KOFORIDUA BRANCH",
+		"region": "EASTERN REGION",
+		"coordinates": {
+			"latitude": 6.092647742085999,
+			"longitude": -0.2613321979689859,
+		},
+	},
+	{
+		"name": "SOMANYA BRANCH",
+		"region": "EASTERN REGION",
+		"coordinates": {
+			"latitude": 6.111247760617219,
+			"longitude": -0.0078112634383553925,
+		},
+	},
+	{
+		"name": "TAMALE KALADAN MTN BRANCH",
+		"region": "NORTHERN REGION",
+		"coordinates": {
+			"latitude": 9.398282564663072,
+			"longitude": -0.8504930251245727,
+		},
+	},
+	{
+		"name": "ASSIN FOSU BRANCH",
+		"region": "CENTRAL REGION",
+		"coordinates": {
+			"latitude": 5.689676628801213,
+			"longitude": -1.2712085045259305,
+		},
+	},
+	{
+		"name": "AGONA SWEDRU BRANCH",
+		"region": "CENTRAL REGION",
+		"coordinates": {
+			"latitude": 5.537413888696249,
+			"longitude": -0.6977044191692655,
+		},
+	},
+	{
+		"name": "CANTONMENT BRANCH",
+		"region": "GREATER ACCRA REGION",
+		"coordinates": {
+			"latitude": 5.571281977531444,
+			"longitude": -0.16741184985764168,
+		},
 	},
 ];
+
+
 
 export default Accra;
