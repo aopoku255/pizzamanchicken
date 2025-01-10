@@ -5,6 +5,7 @@ import logo from "../assets/logo.png";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Footer1 = () => {
   return (
